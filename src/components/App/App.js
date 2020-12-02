@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 // import my compnents
 import Header from '../Header/Header'
+import Footer from '../Footer/Footer'
 
 class App extends Component {
   state = {
@@ -108,10 +109,7 @@ class App extends Component {
         <div>
           Knives: {this.state.guestList.length * 2}
         </div>
-        <footer>
-          <h3>Have fun!</h3>
-          <p>Don't forget to mind your Ps and Qs!</p>
-        </footer>
+              <Footer />
       </div>
     );
   }
